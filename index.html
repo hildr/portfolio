@@ -11,25 +11,50 @@
   <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 <body>
   <header>
-  	<nav>
+  <div class="menu">
+  	<nav class="main">
   		<ul>
-  			<li><a href="">HOME</a></li>
-  			<li><a href="">ABOUT</a></li>
-  			<li><a href="">CONTACT</a></li>
-  			<li><a href="">WORKS</a></li>
+  			<li><a href="index.html">HOME</a></li>
+        <li><a href="#works">WORKS</a></li>
+  			<li><a href="#about">ABOUT</a></li>
+  			<li><a href="#contact">CONTACT</a></li>
   		</ul>
   	</nav>
+  </div>
   </header>
   <div class="container">
     <h1>MARIA BOCHAROVA</h1>
+  <section id="works">
     <div class="icons">
       <ul>
-        <li><a class="web-design" href="">Web Design</a></li>
-        <li><a class="photography" href="">Photography</a></li>
-        <li><a class="graphic-design" href="">Graphic Design</a></li>
+        <li class="hovereffect">
+        <a class="web-design" href="web.html">
+          <img src="images/wd1.png" alt="web design">
+          <div class="overlay">
+                <h2>WEB<br>
+                 DESIGN</h2>
+          </div>
+        </a></li>
+        <li class="hovereffect">
+        <a class="photography" href="photo.html">
+          <img src="images/ph1.png" alt="photography">
+           <div class="overlay">
+                <h3>PHOTOGRAPHY</h3>
+          </div>
+        </a></li>
+        <li class="hovereffect">
+        <a class="graphic-design" href="gd.html">
+          <img src="images/gd1.png" alt="graphic design">
+          <div class="overlay">
+                <h2>GRAPHIC<br>
+                 DESIGN</h2>
+          </div>
+        </a></li>
       </ul>
     </div> <!-- .icons -->
+  </section>  
     <div class="parallax"></div> <!-- .parallax -->
+  <section id="about">
     <div class="about">
       <h2>ABOUT</h2>
       <p>I’m graphic designer and photographer from Ukraine, studding for Web Design in Auckland, New Zealand.  I found this job position on internet search and I’m really interested in this position. This position is a great opportunity for me to increase my skills, to increase myself as a designer and also this is great opportunity for my career.<br> 
@@ -57,9 +82,11 @@
         </ul>
       </div> <!-- .columns -->
     </div> <!-- .skills -->
+  </section>   
   <div class="parallax2"></div> <!-- .parallax -->
+  <section id="contact">
   <div class="contact">
-    <h2>CONTACT</h2>
+    <h2>GET IN TOUCH</h2>
     <div class="form">
     <form action="https://formspree.io/cska.mb@gmail.com"
       method="POST">
@@ -79,6 +106,7 @@
     </div>
     </form>
   </div> <!-- .contact -->
+  </section>
   <div class="social-media">
     <ul>
       <li><a class="blog" rel="external" target="blank" href="http://cskamb.blogspot.com">Blog</a></li>
@@ -94,6 +122,8 @@
 <footer>
   <small>Powered by NGINX</small>
 </footer>
+
+<script src="custom.js"></script>
 </body>
 
 </html>
