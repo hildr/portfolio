@@ -750,7 +750,8 @@ img {
 .flickity-2 div,
 .flickity-3 div,
 .flickity-4 div,
-.flickity-5 div {
+.flickity-5 div,
+.flickity-6 div {
   width: 100%;
 }
 
@@ -758,7 +759,8 @@ img {
 .flickity-2 img,
 .flickity-3 img,
 .flickity-4 img,
-.flickity-5 img{
+.flickity-5 img,
+.flickity-6 img{
 	margin-top: 3em;
 }
 
@@ -815,7 +817,8 @@ img {
   .flickity-2,
   .flickity-3,
   .flickity-4,
-  .flickity-5{
+  .flickity-5,
+  .flickity-6{
   	width: 60%;
   }
 
