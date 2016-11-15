@@ -22,9 +22,18 @@ strong{
 	margin-top: 1em;
 }
 
+.project2 .desc{
+  background: rgba(255,255,255,.1);
+  color: white;
+}
+
 .desc a{
 	color: black;
 	text-decoration: underline;
+}
+
+.project2 .desc a{
+  color: white;
 }
 
 .desc ul li{
@@ -552,23 +561,6 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .resume,
-  .brand,
-  .tutorial{
-    background: rgba(0, 0, 0, .7);
-    width: 350px;
-    height: 300px;
-    margin-bottom: 2em;
-  }
-
-  .ngo,
-  .cuisine,
-  .ecommerce{
-    background: rgba(255, 255, 255, .7);
-    width: 350px;
-    height: 300px;
-    margin-bottom: 2em;
-  }
 
   .row1{
     display: flex;
@@ -755,12 +747,18 @@ img {
 }
 
 .flickity div, 
-.flickity-2 div {
+.flickity-2 div,
+.flickity-3 div,
+.flickity-4 div,
+.flickity-5 div {
   width: 100%;
 }
 
 .flickity img,
-.flickity-2 img{
+.flickity-2 img,
+.flickity-3 img,
+.flickity-4 img,
+.flickity-5 img{
 	margin-top: 3em;
 }
 
@@ -795,6 +793,7 @@ img {
 
     .desc{
     	margin-top: 2em;
+      width: 40%;
     }
 
       .hovereffect{
@@ -813,12 +812,11 @@ img {
 
 
   .flickity,
-  .flickity-2{
+  .flickity-2,
+  .flickity-3,
+  .flickity-4,
+  .flickity-5{
   	width: 60%;
-  }
-
-  .desc{
-  	width: 40%;
   }
 
   .hovereffect h2{

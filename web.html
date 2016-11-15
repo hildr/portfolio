@@ -19,14 +19,43 @@
 </header>
 <div class="container">
 	<h1 class="web-works">WEB DESIGN</h1>
-	<div class="sites">
-		<div class="resume"></div>
-		<div class="ngo"></div>
-		<div class="brand"></div>
-		<div class="cuisine"></div>
-		<div class="tutorial"></div>
-		<div class="ecommerce"></div>
-	</div> <!-- .sites -->
+	<div class="project">
+		<div class="flickity">
+			<div><img src="images/logo.jpg" alt="logo"></div>
+     <div><img src="images/poster.jpg" alt="poster"></div>
+     <div><img src="images/w-home.jpg" alt="web-home"></div>
+     <div><img src="images/m-home.jpg" alt="mob-home"></div>
+		</div>
+
+		<div class="desc">
+		<ul>
+			<li><strong>Project: </strong>"OPPRESSOFF"</li>
+			<li><strong>Description: </strong>This is the final project of my study. This project is about to make campaign based on the social problem. My socila issue was the oppression of the women in general, but focusing on the Middle East. As a part of the campaign I made logo design, design of the web-site(mockup), mobile application(also mockup), design of promotional ites, such ad poster and brochure.</li>
+			<li><strong>Languages: </strong>Adobe Illustrator and Adobe Photoshop </li>
+			<li><strong>Link: </strong>Full information about the project you can find in my <a href="http://cskamb.blogspot.com/">blog</a></li>
+		</ul>
+		</div>
+	</div> <!--  .project -->
+
+	<div class="project2">
+		<div class="desc">
+		<ul>
+			<li><strong>Project: </strong>"UNDP Health Support Promotion"</li>
+			<li><strong>Description: </strong>This is design of the promotional items for the UNDP Health Support in Limpopo province in South Africa. I made this project while was working as a Graphic Design Intern for the UNDP Health Support. Those items was design to promote health program in South Africa.</li>
+			<li><strong>Languages: </strong>Adobe Illustrator and Adobe Photoshop </li>
+			<li><strong>Link: </strong>Full information about the project you can find in my <a href="http://cskamb.blogspot.com/2015/03/undp-work.html">blog</a></li>
+		</ul>
+		</div> <!-- .desc -->
+	
+		<div class="flickity-2">
+			<div><img src="images/docs.jpg" alt="poster"></div>
+     <div><img src="images/b-front.jpg" alt="brochure"></div>
+     <div><img src="images/b-back.jpg" alt="brochure"></div>
+     <div><img src="images/unpos1.jpg" alt="poster"></div>
+     <div><img src="images/unpos2.jpg" alt="poster"></div>
+		</div>
+	</div> <!--  .project2 -->
+
 	<div class="social-media">
     <ul>
       <li><a class="blog" rel="external" target="blank" href="http://cskamb.blogspot.com">Blog</a></li>
@@ -41,5 +70,25 @@
 <footer>
   <small>Powered by NGINX</small>
 </footer>
+<script src="flickity.min.js"></script>
+  <script>
+  window.onload = function () {
+  	var elem = document.querySelector('.flickity');
+  var flkty = new Flickity(elem, {
+    contain: true,
+    wrapAround: true,
+    //autoPlay: 5000,
+    prevNextButtons: false
+  });
+
+  var elem2 = document.querySelector('.flickity-2');
+  var flkty = new Flickity(elem2, {
+    contain: true,
+    wrapAround: true,
+    // autoPlay: 5000,
+    prevNextButtons: false
+  });
+}
+</script>
 </body>
 </html>
