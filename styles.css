@@ -39,6 +39,10 @@ strong{
   color: white;
 }
 
+.project2 .desc a:hover{
+  color: red;
+}
+
 .desc ul li{
 	margin: 0 0 15px 0;
   color: ;
