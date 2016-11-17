@@ -15,8 +15,10 @@ window.addEventListener('scroll', function() {
 
 var showText = function(target, message, index, interval) {
     if (index < message.length) {
-        document.querySelector(target).append(message[index++])
-        setTimeout(function() { showText(target, message, index, interval); }, interval)
+        var text = document.createElement('span')
+  			text.innerHTML = message[index++]
+    		document.querySelector(target).appendChild(text) 
+    		setTimeout(function () { showText(target, message, index, interval); }, interval) 
     } else if (index == message.length){
     	setTimeout(function(){
     	document.querySelector(target).innerHTML = ""
@@ -79,8 +81,10 @@ setInterval(function(){
 
 var showText = function(target, message, index, interval) {
     if (index < message.length) {
-        document.querySelector(target).append(message[index++])
-        setTimeout(function() { showText(target, message, index, interval); }, interval)
+        var text = document.createElement('span')
+  		text.innerHTML = message[index++]
+    	document.querySelector(target).appendChild(text) 
+    	setTimeout(function () { showText(target, message, index, interval); }, interval) 
     } else if (index == message.length){
     	setTimeout(function(){
     	document.querySelector(target).innerHTML = ""
