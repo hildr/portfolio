@@ -143,3 +143,59 @@ setTimeout(function() {
 },21400);
 
 }, 23000);
+
+window.onload = function () {
+    var elem = document.querySelector('.flickity');
+  var flkty = new Flickity(elem, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });
+
+  var elem2 = document.querySelector('.flickity-2');
+  var flkty = new Flickity(elem2, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });
+
+  var elem3 = document.querySelector('.flickity-3');
+  var flkty = new Flickity(elem3, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });
+
+  var elem4 = document.querySelector('.flickity-4');
+  var flkty = new Flickity(elem4, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });
+
+  var elem5 = document.querySelector('.flickity-5');
+  var flkty = new Flickity(elem5, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });  
+
+  var elem6 = document.querySelector('.flickity-6');
+  var flkty = new Flickity(elem6, {
+    contain: true,
+    wrapAround: true,
+    autoPlay: 5000,
+    prevNextButtons: false,
+    lazyLoad: true
+  });
+ }
