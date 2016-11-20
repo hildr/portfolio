@@ -151,6 +151,10 @@ h2 {
     letter-spacing: 5px;
 }
 
+.about h2{
+  margin-bottom: 1em;
+}
+
 h3{
 	  color: rgba(50, 32, 32, .9);
     font-size: 14px;
@@ -624,7 +628,7 @@ footer {
 }
 
 .about{
-  padding: 0 3em 3em;
+  padding: 0 1em 3em;
 }
 
 .me img{
