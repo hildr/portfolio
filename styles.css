@@ -421,8 +421,18 @@ footer {
   padding: 3em 3em 10em;
 }
 
-.social-media ul{
+.social-media{
   background: rgba(255, 255, 255, .6);
+  padding-bottom: .5em;
+}
+
+small{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-media ul{
   padding: 0;
   list-style: none;
   display: flex;
